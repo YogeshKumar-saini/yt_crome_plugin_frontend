@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 10px;
+    background: #f7f8fa;
+    color: #333;
+}
+
+.section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+.metrics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.metric {
+    background: #f0f3f5;
+    border-radius: 8px;
+    padding: 10px 12px;
+    flex: 1 1 45%;
+    text-align: center;
+}
+
+.metric-title {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.metric-value {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #333;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.comment-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.comment-sentiment {
+    color: #2980b9;
+    font-size: 0.9em;
+}
+
+.chart-image {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.success {
+    margin-top: 20px;
+    color: green;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}

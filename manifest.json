@@ -1,25 +1,27 @@
 {
-  "manifest_version": 3,
-  "name": "YouTube Comment Sentiment Analyzer",
-  "version": "1.0",
-  "description": "Analyze YouTube comments' sentiment using your Flask API",
-  "permissions": [
-    "activeTab",
-    "scripting"
-  ],
-  "host_permissions": [
-    "http://localhost:5000/*"
-  ],
-  "background": {
-    "service_worker": "background.js"
-  },
-  "content_scripts": [
-    {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["content.js"]
+    "manifest_version": 3,
+    "name": "YouTube Sentiment Analyzer",
+    "version": "1.0",
+    "description": "Analyzes sentiment of YouTube comments using a custom Flask API.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "host_permissions": [
+        "https://www.googleapis.com/*",
+        "*://*.ngrok-free.app/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/icon.png",
+            "48": "icons/icon.png",
+            "128": "icons/icon.png"
+        }
+    },
+    "icons": {
+        "16": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
     }
-  ],
-  "action": {
-    "default_popup": "popup.html"
-  }
 }

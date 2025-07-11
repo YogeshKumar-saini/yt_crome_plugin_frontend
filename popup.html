@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>YT Sentiment Analyzer</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Sentiment Analyzer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>YouTube Sentiment</h2>
-    <button id="analyze">Analyze Comments</button>
-    <p id="status"></p>
+    <div class="container">
+        <h1>YouTube Comment Sentiment</h1>
+        <button id="analyzeBtn" class="analyze-button">Analyze Comments</button>
+        <div id="results" class="results-container">
+            <p class="initial-message">Click "Analyze Comments" to get started.</p>
+        </div>
+    </div>
     <script src="popup.js"></script>
 </body>
 </html>
