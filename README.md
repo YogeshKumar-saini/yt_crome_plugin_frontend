@@ -85,16 +85,16 @@ Follow these steps to get SentimentPulse up and running on your system.
 ### 1\. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/SentimentPulse.git](https://github.com/YogeshKumar-saini/yt_crome_plugin_frontend.git) # Replace with your repo URL
+git clone https://github.com/YogeshKumar-saini/yt_crome_plugin_frontend.git # Replace with your repo URL
 cd yt_crome_plugin_frontend
 ```
-
 ### 2\. Backend Setup (Flask API)
 
 Navigate to the `backend` directory (assuming your Flask app is in a folder named `backend` within your project root).
 
 ```bash
-cd backend # Adjust if your Flask app is directly in the project root
+git clone [https://github.com/YogeshKumar-saini/YouTube-Comment-Analysis.git]) # Replace with your repo URL
+cd YouTube-Comment-Analysis
 ```
 
 #### a. Create a Virtual Environment (Recommended)
@@ -241,6 +241,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://www.g
 
 -----
 
-## ✉️ Contact
 
-## Your Name - [your.email@example.com](mailto:your.email@example.com) Project Link: [https://github.com/your-username/SentimentPulse](https://www.google.com/search?q=https://github.com/your-username/SentimentPulse) --- **Enjoy gaining deeper insights from YouTube comments with SentimentPulse\!**
