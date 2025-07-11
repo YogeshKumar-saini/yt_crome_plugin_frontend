@@ -85,8 +85,8 @@ Follow these steps to get SentimentPulse up and running on your system.
 ### 1\. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/SentimentPulse.git # Replace with your repo URL
-cd SentimentPulse
+git clone [https://github.com/your-username/SentimentPulse.git](https://github.com/YogeshKumar-saini/yt_crome_plugin_frontend.git) # Replace with your repo URL
+cd yt_crome_plugin_frontend
 ```
 
 ### 2\. Backend Setup (Flask API)
