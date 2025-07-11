@@ -1,8 +1,14 @@
 // popup.js
+// env
 
-const apiKey = "AIzaSyBg9EJswKXfJfIC3XE7YwKKzkZjJj7pG_8"; // Replace with your actual YouTube Data API Key
-// CRITICAL: Update this with your current ngrok URL every time you restart ngrok
-const baseFlaskUrl = "https://5c8c9a18d26e.ngrok-free.app";
+
+
+// take key from environment variable
+const apiKey = process.env.YOUTUBE_API_KEY || "YOUR_YOUTUBE_API_KEY";
+const baseFlaskUrl = process.env.FLASK_API_URL || "http://localhost:5000/api"; // Adjust to your Flask server URL
+
+
+
 
 document.getElementById("analyzeBtn").addEventListener("click", async () => {
     const outputDiv = document.getElementById("results");
